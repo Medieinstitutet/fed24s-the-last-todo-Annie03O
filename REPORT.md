@@ -50,11 +50,7 @@ för att köra projektet.
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla krav för betyget G, inklusive att presentera en hårdkodad lista med 'todos', att kunna markera uppgifter som klara och ta bort dem från listan, samt att hantera lista i en HTML-struktur. Dock finns det några kodkvalitetsproblem och förbättringsmöjligheter kvar.
+📌 **Motivering:** Koden uppfyller grundkraven för G. Det finns en hårdkodad lista med todo-punkter som presenteras på skärmen i form av en lista. Användaren kan klicka på en knapp för att ta bort en todo från listan och den uppdateras korrekt i React-staten.
 
 💡 **Förbättringsförslag:**  
-1. Naming Convention: Namen på komponenter och funktioner skulle kunna vara mer beskrivande, till exempel kan 'removeTodo' bytas till 'handleRemoveTodo' för att tydliggöra att det är en eventhanterare.
-2. Single Responsibility Principle: Komponenterna kan delas upp ytterligare, till exempel kan 'TodoItem' vara en separat komponent för att hantera en enda todo.
-3. Code Duplication: CSS för knappar definieras fler gånger i olika filer, vilket kan leda till inkonsistens och ökat underhållsarbete.
-4. Kommentarer: Kommentarerna är bra för att förstå koden, men det kan effektiviseras genom att hålla dem korta och relevanta. 
-5. State Lifting: För att kunna hantera fler funktioner på ett bättre sätt, speciellt om andra funktioner än 'removeTodo' ska läggas till, kan flera små komponenter användas och anpassas för hanteringen av state.
+För att uppnå VG-kraven kan följande funktionalitet implementeras: visa slutförda uppgifter och möjliggöra att de kan göras oklara igen, skapa ett formulär för att lägga till nya todos, använda 'lifting state up' för bättre komponentdelning, samt lägga till sorteringsfunktionalitet för todos. Även användning av ett grafiskt ramverk som Tailwind eller Material UI kan implementeras för VG, tillsammans med mer avancerad användning av flexbox eller grid.
